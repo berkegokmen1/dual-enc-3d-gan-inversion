@@ -5,7 +5,7 @@
 ## Results
 
 <video nocontrols loop>
-  <source src="./docs/videos/grid_images_last.mp4" type="video/mp4">
+  <source src="docs/videos/grid_images_last.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
