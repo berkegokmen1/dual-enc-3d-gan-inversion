@@ -1,4 +1,4 @@
-# Dual Encoder GAN Inversion for High-Fidelity 3D Head Reconstruction from Single Images
+# [NIPS2024] Dual Encoder GAN Inversion for High-Fidelity 3D Head Reconstruction from Single Images
 
 [Paper](https://berkegokmen1.github.io/dual-enc-3d-gan-inv/) | [Project Website](https://berkegokmen1.github.io/dual-enc-3d-gan-inv/) | [BibTeX](#bibtex)
 
