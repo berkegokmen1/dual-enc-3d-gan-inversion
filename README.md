@@ -1,7 +1,7 @@
 # Dual Encoder GAN Inversion for High-Fidelity 3D Head Reconstruction from Single Images
 ### Accepted to NeurIPS 2024.
 
-[Paper](https://berkegokmen1.github.io/dual-enc-3d-gan-inv/) | [Project Website](https://berkegokmen1.github.io/dual-enc-3d-gan-inv/) | [BibTeX](#bibtex)
+[Paper](https://arxiv.org/abs/2409.20530) | [Project Website](https://berkegokmen1.github.io/dual-enc-3d-gan-inv/) | [BibTeX](#bibtex)
 
 ## Authors
 [Ahmet Berke Gökmen](https://www.linkedin.com/in/berkegokmen/)\*, [Bahri Batuhan Bilecen](https://three-bee.github.io/)\*, [Ayşegül Dündar](https://www.cs.bilkent.edu.tr/~adundar/)
