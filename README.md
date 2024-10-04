@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/3b2524f5-252b-4c27-bbb5-6f1796fa2e63
 
 ## TODO
 - [X] Release Website (06.09.2024)
-- [ ] Release Paper
+- [X] Release Paper
 - [ ] Release Code
 - [ ] Release Checkpoints
 
