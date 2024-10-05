@@ -20,13 +20,14 @@ https://github.com/user-attachments/assets/3b2524f5-252b-4c27-bbb5-6f1796fa2e63
 
 ## BibTeX
 ```
-@misc{,
+@misc{bilecen2024dualencoderganinversion,
       title={Dual Encoder GAN Inversion for High-Fidelity 3D Head Reconstruction from Single Images}, 
-      author={},
+      author={Bahri Batuhan Bilecen and Ahmet Berke Gokmen and Aysegul Dundar},
       year={2024},
-      eprint={},
+      eprint={2409.20530},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.20530}, 
 }
 ```
 
