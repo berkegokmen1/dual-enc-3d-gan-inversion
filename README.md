@@ -18,6 +18,8 @@ https://github.com/user-attachments/assets/3b2524f5-252b-4c27-bbb5-6f1796fa2e63
 - [ ] Release Code
 - [ ] Release Checkpoints
 
+Note: We're working on a better version. However the code release will be completed no later than 29.01.2025 
+
 ## BibTeX
 ```
 @misc{bilecen2024dualencoderganinversion,
