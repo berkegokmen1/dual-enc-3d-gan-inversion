@@ -27,7 +27,7 @@ Note: We're working on a better version. However the code release will be comple
       author={Bahri Batuhan Bilecen and Ahmet Berke Gokmen and Aysegul Dundar},
       year={2024},
       eprint={2409.20530},
-      archivePrefix={arXiv},
+      archivePrefix={NeurIPS},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2409.20530}, 
 }
