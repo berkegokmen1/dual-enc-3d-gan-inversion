@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=0 python ./training/encoder/train.py \
+   --val_interval=200000 \
+   --exp_dir=<output-dir> \
+   --checkpoint_path=<resume-checkpoint> \
+   --batch_size=2 \
+   --test_batch_size=2 \
+   --image_interval=1000 \
+   --w_lambda_psp=0 \
+   --synth_data_ratio=0.25 \
+   --add_triplanenet=30000 \
+   --max_steps=2250000 \
+   --stop_psp=750000 \
+   --mirror_lambda=0.1 \
+   --save_interval=20000 \
+   --use_wandb

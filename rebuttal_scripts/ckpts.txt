@@ -1,0 +1,15 @@
+REBUTTAL
+
+test dataset: /home/bilecen/berke/PanoHead/old_all_results/test_dataset
+celeba: /home/bilecen/3d_inversion/data/CelebA-HQ_1024-no-bg-processed
+mead: /home/bilecen/3d_inversion/data/MEAD/drive/MyDrive/MEAD_Panohead-no-bg
+
+--synth_data_path /home/bilecen/berke/PanoHead/test_dataset \
+--checkpoint_path /home/bilecen/berke/PanoHead/exp-fixed-discriminator-15k-occlusion-2d-only-psp-d-loss-adv-lambda-0_005/checkpoints/iteration_320000.pt \
+--visible_region_net_checkpoint_path /home/bilecen/berke/PanoHead/synth05fromZero_bs6/iteration_200000.pt \
+--visible_region_net_checkpoint_path /home/bilecen/berke/PanoHead/final_ckpts/z_plus_iteration_280000.pt
+
+---
+
+CUDA_VISIBLE_DEVICES=0 python3 /home/bilecen/berke/PanoHead/training/encoder/infer_new.py   --output_dir /home/bilecen/berke/PanoHead/final_inference_results_good/exp-320k-d-280k-z-plus-new-stitched-celeba  --checkpoint_path /home/bilecen/berke/PanoHead/exp-fixed-discriminator-15k-occlusion-2d-only-psp-d-loss-adv-lambda-0_005/checkpoints/iteration_320000.pt   --data_path /home/bilecen/3d_inversion/data/lpff_3DDFA/no_background_combined_processed   --synth_data_path /home/bilecen/3d_inversion/data/CelebA-HQ_1024-no-bg-processed   --num_samples 880   --generate_background 0   --use_zplus 0   --use_z 0   --synth_data_ratio 1   --only_use_first_stage 0   --eval_mode   --visible_region_net_checkpoint_path /home/bilecen/berke/PanoHead/final_ckpts/z_plus_iteration_280000.pt   --use_visible_region_stitching 1   --fid_trunc_psi 0.8   --fid_pose_cond all --save_all_images_stiched 1
+CUDA_VISIBLE_DEVICES=0 python3 /home/bilecen/berke/PanoHead/training/encoder/infer_new.py   --output_dir /home/bilecen/berke/PanoHead/final_inference_results_good/exp-320k-d-280k-z-plus-new-stitched-ffhq-lpff  --checkpoint_path /home/bilecen/berke/PanoHead/exp-fixed-discriminator-15k-occlusion-2d-only-psp-d-loss-adv-lambda-0_005/checkpoints/iteration_320000.pt   --data_path /home/bilecen/3d_inversion/data/lpff_3DDFA/no_background_combined_processed   --synth_data_path /home/bilecen/berke/PanoHead/test_dataset   --num_samples 880   --generate_background 0   --use_zplus 0   --use_z 0   --synth_data_ratio 1   --only_use_first_stage 0   --eval_mode   --visible_region_net_checkpoint_path /home/bilecen/berke/PanoHead/final_ckpts/z_plus_iteration_280000.pt   --use_visible_region_stitching 1   --fid_trunc_psi 0.8   --fid_pose_cond all --save_all_images_stiched 1

@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 python3 ./training/encoder/infer.py \
+  --output_dir ./infer-output \
+  --checkpoint_path ./checkpoints/occluded_net.pt \
+  --data_path <path-to-ffhq-lpff> \
+  --synth_data_path <path-to-eval-dataset> \
+  --visible_region_net_checkpoint_path ./checkpoints/visible_net.pt \
+  --use_visible_region_stitching 1 \
+  --generate_background 0 \
+  --generate_geometry 0 \
+  --geometry_output_ply 0 \
+  --render_geometry 0 \
+  --save_videos 0 \
+  --synth_data_ratio 1 # make sure this is set to 1 for evaluation
